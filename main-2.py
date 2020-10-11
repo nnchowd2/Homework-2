@@ -16,7 +16,7 @@ def linear_eq2(x, y):
 
 for x in range(-10,10):
     for y in range(-10, 10):
-        if linear_eq1(x, y) == 0 and linear_eq1(x, y) == linear_eq2(x, y):
+        if linear_eq1(x, y) == 0 and linear_eq2(x, y) == 0 and linear_eq1(x, y) == linear_eq2(x, y):
              x1 = x
              y1 = y
 
